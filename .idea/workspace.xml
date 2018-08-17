@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/008/008_string_to_integer_atoi.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/009/009_palindrome_number.go" afterPath="$PROJECT_DIR$/009/009_palindrome_number.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,13 +46,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="008_string_to_integer_atoi.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="008_string_to_integer_atoi.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/008/008_string_to_integer_atoi.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
               <folding>
-                <element signature="e#14#32#0" expanded="true" />
+                <element signature="e#13#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="009_palindrome_number.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/009/009_palindrome_number.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +92,7 @@
         <option value="$PROJECT_DIR$/005/005_longest_palindromic_substring.go" />
         <option value="$PROJECT_DIR$/007/007_reverse_integer.go" />
         <option value="$PROJECT_DIR$/008/008_string_to_integer_atoi.go" />
+        <option value="$PROJECT_DIR$/009/009_palindrome_number.go" />
       </list>
     </option>
   </component>
@@ -122,6 +135,11 @@
               <item name="leetcode_golang_version" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode_golang_version" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode_golang_version" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode_golang_version" type="462c0819:PsiDirectoryNode" />
+              <item name="009" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build 009_palindrome_number.go">
     <configuration name="go build 008_string_to_integer_atoi.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="leetcode_golang_version" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -155,9 +173,23 @@
       <package value="go_projects/leetcode_golang_version" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build 009_palindrome_number.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="leetcode_golang_version" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/009/009_palindrome_number.go" />
+      <package value="go_projects/leetcode_golang_version" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build 008_string_to_integer_atoi.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build 009_palindrome_number.go" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build 008_string_to_integer_atoi.go" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build 009_palindrome_number.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build 008_string_to_integer_atoi.go" />
       </list>
     </recent_temporary>
   </component>
@@ -244,10 +276,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/008/008_string_to_integer_atoi.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding>
-            <element signature="e#14#32#0" expanded="true" />
+            <element signature="e#13#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/009/009_palindrome_number.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
