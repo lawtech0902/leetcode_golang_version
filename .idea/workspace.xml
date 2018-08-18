@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/031/031_next_permutation.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/240/240_search_a_2d_matrix_ii.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/144/144_binary_tree_preorder_traversal.go" afterPath="$PROJECT_DIR$/144/144_binary_tree_preorder_traversal.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="240_search_a_2d_matrix_ii.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="240_search_a_2d_matrix_ii.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/240/240_search_a_2d_matrix_ii.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="206_reverse_linked_list.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/206/206_reverse_linked_list.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="e#14#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="344_reverse_string.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/344/344_reverse_string.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="144_binary_tree_preorder_traversal.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/144/144_binary_tree_preorder_traversal.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="e#14#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/types.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -58,7 +101,6 @@
         <option value="$PROJECT_DIR$/022/022_generate_parentheses.go" />
         <option value="$PROJECT_DIR$/023/023_merge_k_sorted_lists.go" />
         <option value="$PROJECT_DIR$/listnode_def.go" />
-        <option value="$PROJECT_DIR$/types.go" />
         <option value="$PROJECT_DIR$/024/024_swap_nodes_in_pairs.go" />
         <option value="$PROJECT_DIR$/026/026_remove_duplicates_from_sorted_array.go" />
         <option value="$PROJECT_DIR$/027/027_remove_element.go" />
@@ -66,6 +108,11 @@
         <option value="$PROJECT_DIR$/029/029_divide_two_integers.go" />
         <option value="$PROJECT_DIR$/031/031_next_permutation.go" />
         <option value="$PROJECT_DIR$/240/240_search_a_2d_matrix_ii.go" />
+        <option value="$PROJECT_DIR$/240/206_reverse_linked_list.go" />
+        <option value="$PROJECT_DIR$/206/206_reverse_linked_list.go" />
+        <option value="$PROJECT_DIR$/344/344_reverse_string.go" />
+        <option value="$PROJECT_DIR$/types.go" />
+        <option value="$PROJECT_DIR$/144/144_binary_tree_preorder_traversal.go" />
       </list>
     </option>
   </component>
@@ -118,6 +165,11 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/206" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -367,14 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/024/024_swap_nodes_in_pairs.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -429,6 +473,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/206/206_reverse_linked_list.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/344/344_reverse_string.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/144/144_binary_tree_preorder_traversal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#14#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
