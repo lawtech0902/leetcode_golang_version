@@ -1,5 +1,7 @@
 package _23
 
+import "container/heap"
+
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午2:51'
@@ -10,59 +12,66 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func merge(lists []*ListNode) *ListNode {
-	length := len(lists)
-	half := length / 2
+type minHeap []*ListNode
 
-	if length == 1 {
-		return lists[0]
+func (h minHeap) Less(i, j int) bool {
+	if h[i] == nil {
+		return false
 	}
 
-	if length == 2 {
-		var (
-			l0, l1   = lists[0], lists[1]
-			res, cur *ListNode
-		)
-
-		if l0 == nil {
-			return l1
-		}
-		if l1 == nil {
-			return l0
-		}
-
-		if l0.Val < l1.Val {
-			res, cur, l0 = l0, l0, l0.Next
-		} else {
-			res, cur, l1 = l1, l1, l1.Next
-		}
-
-		for l0 != nil && l1 != nil {
-			if l0.Val < l1.Val {
-				cur.Next, l0 = l0, l0.Next
-			} else {
-				cur.Next, l1 = l1, l1.Next
-			}
-			cur = cur.Next
-		}
-
-		if l0 != nil {
-			cur.Next = l0
-		}
-		if l1 != nil {
-			cur.Next = l1
-		}
-
-		return res
+	if h[j] == nil {
+		return true
 	}
 
-	return mergeKLists([]*ListNode{mergeKLists(lists[half:]), mergeKLists(lists[:half])})
+	return h[i].Val < h[j].Val
+}
+
+func (h minHeap) Swap(i, j int) {
+	h[i], h[j] = h[j], h[i]
+}
+
+func (h minHeap) Len() int {
+	return len(h)
+}
+
+func (h *minHeap) Push(v interface{}) {
+	*h = append(*h, v.(*ListNode))
+}
+
+func (h *minHeap) Pop() interface{} {
+	old := *h
+	l := len(old)
+	r := old[l-1]
+	*h = old[:l-1]
+	return r
 }
 
 func mergeKLists(lists []*ListNode) *ListNode {
-	if len(lists) == 0 {
-		return nil
+	tmp := minHeap(lists)
+	h := &tmp
+	heap.Init(h)
+
+	var head, last *ListNode
+
+	for h.Len() > 0 {
+		v := heap.Pop(h).(*ListNode)
+		if v == nil {
+			continue
+		}
+
+		if last != nil {
+			last.Next = v
+		}
+
+		if head == nil {
+			head = v
+		}
+
+		last = v
+		if v.Next != nil {
+			heap.Push(h, v.Next)
+		}
 	}
 
-	return merge(lists)
+	return head
 }
