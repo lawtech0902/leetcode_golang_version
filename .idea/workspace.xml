@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/022/022_generate_parentheses.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/023/023_merge_k_sorted_lists.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="022_generate_parentheses.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/022/022_generate_parentheses.go">
+      <file leaf-file-name="023_merge_k_sorted_lists.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/023/023_merge_k_sorted_lists.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="693">
+              <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -75,6 +75,7 @@
         <option value="$PROJECT_DIR$/020/020_valid_parentheses.go" />
         <option value="$PROJECT_DIR$/021/021_merge_two_sorted_lists.go" />
         <option value="$PROJECT_DIR$/022/022_generate_parentheses.go" />
+        <option value="$PROJECT_DIR$/023/023_merge_k_sorted_lists.go" />
       </list>
     </option>
   </component>
@@ -308,7 +309,7 @@
         <state relative-caret-position="-169">
           <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
-            <element signature="e#13#26#0" expanded="true" />
+            <element signature="e#13#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -318,7 +319,7 @@
         <state relative-caret-position="240">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#13#26#0" expanded="true" />
+            <element signature="e#13#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -339,6 +340,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/022/022_generate_parentheses.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/021/021_merge_two_sorted_lists.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -347,10 +356,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022/022_generate_parentheses.go">
+    <entry file="file://$PROJECT_DIR$/023/023_merge_k_sorted_lists.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="693">
+          <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
           <folding />
         </state>
       </provider>
