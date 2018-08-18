@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/232/232_implement_queue_using_stacks.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/141/141_linked_list_cycle.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,12 +26,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="232_implement_queue_using_stacks.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="232_implement_queue_using_stacks.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/232/232_implement_queue_using_stacks.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
+            <state relative-caret-position="999">
               <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="141_linked_list_cycle.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/141/141_linked_list_cycle.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding>
+                <element signature="e#14#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +100,7 @@
         <option value="$PROJECT_DIR$/102/102_binary_tree_level_order_traversal.go" />
         <option value="$PROJECT_DIR$/107/107_binary_tree_level_order_traversal_ii.go" />
         <option value="$PROJECT_DIR$/232/232_implement_queue_using_stacks.go" />
+        <option value="$PROJECT_DIR$/141/141_linked_list_cycle.go" />
       </list>
     </option>
   </component>
@@ -129,16 +142,6 @@
             <path>
               <item name="leetcode_golang_version" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode_golang_version" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode_golang_version" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode_golang_version" type="462c0819:PsiDirectoryNode" />
-              <item name="102" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode_golang_version" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode_golang_version" type="462c0819:PsiDirectoryNode" />
-              <item name="106" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -548,6 +551,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/232/232_implement_queue_using_stacks.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/107/107_binary_tree_level_order_traversal_ii.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -558,11 +569,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/232/232_implement_queue_using_stacks.go">
+    <entry file="file://$PROJECT_DIR$/141/141_linked_list_cycle.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="480">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
