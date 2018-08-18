@@ -14,6 +14,6 @@ type ListNode struct {
 // 树
 type TreeNode struct {
 	Val   int
-	Left  TreeNode
-	Right TreeNode
+	Left  *TreeNode
+	Right *TreeNode
 }
