@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/145/145_binary_tree_postorder_traversal.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/105/105_construct_binary_tree_from_preorder_and_inorder_traversal.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,23 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="094_binary_tree_inorder_traversal.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/094/094_binary_tree_inorder_traversal.go">
+      <file leaf-file-name="145_binary_tree_postorder_traversal.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/145/145_binary_tree_postorder_traversal.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="470">
+              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
-                <element signature="e#13#57#0" expanded="true" />
+                <element signature="e#14#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="145_binary_tree_postorder_traversal.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/145/145_binary_tree_postorder_traversal.go">
+      <file leaf-file-name="105_construct_binary_tree_from_preorder_and_inorder_traversal.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/105/105_construct_binary_tree_from_preorder_and_inorder_traversal.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="193">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#14#58#0" expanded="true" />
               </folding>
@@ -85,6 +85,7 @@
         <option value="$PROJECT_DIR$/types.go" />
         <option value="$PROJECT_DIR$/094/094_binary_tree_inorder_traversal.go" />
         <option value="$PROJECT_DIR$/145/145_binary_tree_postorder_traversal.go" />
+        <option value="$PROJECT_DIR$/105/105_construct_binary_tree_from_preorder_and_inorder_traversal.go" />
       </list>
     </option>
   </component>
@@ -497,8 +498,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/145/145_binary_tree_postorder_traversal.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="470">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/105/105_construct_binary_tree_from_preorder_and_inorder_traversal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#14#58#0" expanded="true" />
           </folding>
