@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/101/101_symmetric_tree.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/100/100_same_tree.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/155/155_min_stack.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,38 +15,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="142_linked_list_cycle_ii.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/142/142_linked_list_cycle_ii.go">
+      <file leaf-file-name="155_min_stack.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/155/155_min_stack.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="572_subtree_of_another_tree.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/572/572_subtree_of_another_tree.go">
+      <file leaf-file-name="232_implement_queue_using_stacks.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/232/232_implement_queue_using_stacks.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="101_symmetric_tree.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/101/101_symmetric_tree.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="354">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,6 +92,8 @@
         <option value="$PROJECT_DIR$/572/572_subtree_of_another_treesubtree_of_another_tree.go" />
         <option value="$PROJECT_DIR$/572/572_subtree_of_another_tree.go" />
         <option value="$PROJECT_DIR$/101/101_symmetric_tree.go" />
+        <option value="$PROJECT_DIR$/100/100_same_tree.go" />
+        <option value="$PROJECT_DIR$/155/155_min_stack.go" />
       </list>
     </option>
   </component>
@@ -159,6 +146,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="SearchEverywhereHistoryKey" value="stack&#9;FILE&#9;file:///Users/lawtech/go/src/go_projects/leetcode_golang_version/232/232_implement_queue_using_stacks.go" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -557,14 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/232/232_implement_queue_using_stacks.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/107/107_binary_tree_level_order_traversal_ii.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -605,13 +585,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/101/101_symmetric_tree.go">
+    <entry file="file://$PROJECT_DIR$/100/100_same_tree.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#14#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/101/101_symmetric_tree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="61" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="32" selection-end-column="61" />
+          <folding>
+            <element signature="e#14#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/232/232_implement_queue_using_stacks.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/155/155_min_stack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
