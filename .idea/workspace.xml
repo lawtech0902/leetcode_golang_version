@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/229/229_majority_element_ii.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/053/053_maximum_subarray.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,44 +14,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="114_flatten_binary_tree_to_linked_list.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/114/114_flatten_binary_tree_to_linked_list.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="046_permutations.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/046/046_permutations.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="169_majority_element.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/169/169_majority_element.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="229_majority_element_ii.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="229_majority_element_ii.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/229/229_majority_element_ii.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
+            <state relative-caret-position="460">
+              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="053_maximum_subarray.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/053/053_maximum_subarray.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="e#13#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/003/003_longest_substring_without_repeating_characters.go" />
         <option value="$PROJECT_DIR$/005/005_longest_palindromic_substring.go" />
         <option value="$PROJECT_DIR$/007/007_reverse_integer.go" />
         <option value="$PROJECT_DIR$/008/008_string_to_integer_atoi.go" />
@@ -123,6 +102,7 @@
         <option value="$PROJECT_DIR$/046/046_permutations.go" />
         <option value="$PROJECT_DIR$/169/169_majority_element.go" />
         <option value="$PROJECT_DIR$/229/229_majority_element_ii.go" />
+        <option value="$PROJECT_DIR$/053/053_maximum_subarray.go" />
       </list>
     </option>
   </component>
@@ -274,14 +254,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/002/002_add_two_numbers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/003/003_longest_substring_without_repeating_characters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -726,9 +698,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/229/229_majority_element_ii.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="460">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/053/053_maximum_subarray.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#13#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
