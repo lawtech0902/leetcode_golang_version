@@ -17,3 +17,18 @@ type TreeNode struct {
 	Left  *TreeNode
 	Right *TreeNode
 }
+
+// min/max工具方法
+func MinMax(nums []int) (int, int) {
+	var max int = nums[0]
+	var min int = nums[0]
+	for _, value := range nums {
+		if max < value {
+			max = value
+		}
+		if min > value {
+			min = value
+		}
+	}
+	return min, max
+}
