@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/406/406_queue_reconstruction_by_height.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/605/605_can_place_flowers.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="406_queue_reconstruction_by_height.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="406_queue_reconstruction_by_height.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/406/406_queue_reconstruction_by_height.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
@@ -22,6 +22,16 @@
               <folding>
                 <element signature="e#14#27#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="605_can_place_flowers.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/605/605_can_place_flowers.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/024/024_swap_nodes_in_pairs.go" />
         <option value="$PROJECT_DIR$/026/026_remove_duplicates_from_sorted_array.go" />
         <option value="$PROJECT_DIR$/027/027_remove_element.go" />
         <option value="$PROJECT_DIR$/028/028_implement_strstr.go" />
@@ -93,6 +102,7 @@
         <option value="$PROJECT_DIR$/435/435_non_overlapping_intervals.go" />
         <option value="$PROJECT_DIR$/452/452_minimum_number_of_arrows_to_burst_balloons.go" />
         <option value="$PROJECT_DIR$/406/406_queue_reconstruction_by_height.go" />
+        <option value="$PROJECT_DIR$/605/605_can_place_flowers.go" />
       </list>
     </option>
   </component>
@@ -244,16 +254,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/023/023_merge_k_sorted_lists.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#13#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/024/024_swap_nodes_in_pairs.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -707,6 +707,14 @@
           <folding>
             <element signature="e#14#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/605/605_can_place_flowers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
