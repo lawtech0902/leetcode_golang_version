@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/136/136_single_number.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/530/530_minimum_absolute_difference_in_bst.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,12 +50,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="136_single_number.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="136_single_number.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/136/136_single_number.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
               <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="530_minimum_absolute_difference_in_bst.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/530/530_minimum_absolute_difference_in_bst.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/019/019_remove_nth_node_from_end_of_list.go" />
         <option value="$PROJECT_DIR$/020/020_valid_parentheses.go" />
         <option value="$PROJECT_DIR$/021/021_merge_two_sorted_lists.go" />
         <option value="$PROJECT_DIR$/022/022_generate_parentheses.go" />
@@ -127,6 +138,7 @@
         <option value="$PROJECT_DIR$/111/111_minimum_depth_of_binary_tree.go" />
         <option value="$PROJECT_DIR$/110/110_balanced_binary_tree.go" />
         <option value="$PROJECT_DIR$/136/136_single_number.go" />
+        <option value="$PROJECT_DIR$/530/530_minimum_absolute_difference_in_bst.go" />
       </list>
     </option>
   </component>
@@ -278,16 +290,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/015/015_3sum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="e#13#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/018/018_4sum.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -737,6 +739,16 @@
         <state relative-caret-position="280">
           <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/530/530_minimum_absolute_difference_in_bst.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
