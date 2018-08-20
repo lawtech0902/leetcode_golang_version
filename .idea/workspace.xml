@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/315/315_count_of_smaller_numbers_after_self.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/455/455_assign_cookies.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="315_count_of_smaller_numbers_after_self.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/315/315_count_of_smaller_numbers_after_self.go">
+      <file leaf-file-name="455_assign_cookies.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/455/455_assign_cookies.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="460">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/021/021_merge_two_sorted_lists.go" />
         <option value="$PROJECT_DIR$/022/022_generate_parentheses.go" />
         <option value="$PROJECT_DIR$/023/023_merge_k_sorted_lists.go" />
         <option value="$PROJECT_DIR$/listnode_def.go" />
@@ -91,6 +92,7 @@
         <option value="$PROJECT_DIR$/136/136_single_number.go" />
         <option value="$PROJECT_DIR$/530/530_minimum_absolute_difference_in_bst.go" />
         <option value="$PROJECT_DIR$/315/315_count_of_smaller_numbers_after_self.go" />
+        <option value="$PROJECT_DIR$/455/455_assign_cookies.go" />
       </list>
     </option>
   </component>
@@ -242,14 +244,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/019/019_remove_nth_node_from_end_of_list.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/020/020_valid_parentheses.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -699,6 +693,16 @@
         <state relative-caret-position="160">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/455/455_assign_cookies.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
