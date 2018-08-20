@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/452/452_minimum_number_of_arrows_to_burst_balloons.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/406/406_queue_reconstruction_by_height.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,23 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="455_assign_cookies.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/455/455_assign_cookies.go">
+      <file leaf-file-name="406_queue_reconstruction_by_height.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/406/406_queue_reconstruction_by_height.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="452_minimum_number_of_arrows_to_burst_balloons.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/452/452_minimum_number_of_arrows_to_burst_balloons.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#14#27#0" expanded="true" />
               </folding>
@@ -54,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/listnode_def.go" />
         <option value="$PROJECT_DIR$/024/024_swap_nodes_in_pairs.go" />
         <option value="$PROJECT_DIR$/026/026_remove_duplicates_from_sorted_array.go" />
         <option value="$PROJECT_DIR$/027/027_remove_element.go" />
@@ -105,6 +92,7 @@
         <option value="$PROJECT_DIR$/455/455_assign_cookies.go" />
         <option value="$PROJECT_DIR$/435/435_non_overlapping_intervals.go" />
         <option value="$PROJECT_DIR$/452/452_minimum_number_of_arrows_to_burst_balloons.go" />
+        <option value="$PROJECT_DIR$/406/406_queue_reconstruction_by_height.go" />
       </list>
     </option>
   </component>
@@ -256,14 +244,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/021/021_merge_two_sorted_lists.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/023/023_merge_k_sorted_lists.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -632,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/math/abs.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -710,10 +682,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/452/452_minimum_number_of_arrows_to_burst_balloons.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/406/406_queue_reconstruction_by_height.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#14#27#0" expanded="true" />
           </folding>
