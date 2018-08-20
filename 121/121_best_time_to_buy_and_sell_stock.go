@@ -15,7 +15,7 @@ func maxProfit(prices []int) int {
 	low := prices[0]
 	max_profit := 0
 
-	for price := range prices {
+	for _, price := range prices {
 		if price < low {
 			low = price
 		}
