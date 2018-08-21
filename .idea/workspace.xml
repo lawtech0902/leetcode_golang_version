@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/583/583_delete_operation_for_two_strings.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/072/072_edit_distance.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,23 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="123_best_time_to_buy_and_sell_stock_iii.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/123/123_best_time_to_buy_and_sell_stock_iii.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="e#14#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="583_delete_operation_for_two_strings.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="583_delete_operation_for_two_strings.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/583/583_delete_operation_for_two_strings.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="333">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="e#14#27#0" expanded="true" />
               </folding>
@@ -38,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="最长公共子序列.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/最长公共子序列.go">
+      <file leaf-file-name="072_edit_distance.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/072/072_edit_distance.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="140">
+              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -64,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/142/142_linked_list_cycle_ii.go" />
         <option value="$PROJECT_DIR$/572/572_subtree_of_another_treesubtree_of_another_tree.go" />
         <option value="$PROJECT_DIR$/572/572_subtree_of_another_tree.go" />
         <option value="$PROJECT_DIR$/101/101_symmetric_tree.go" />
@@ -115,6 +102,7 @@
         <option value="$PROJECT_DIR$/188/188_best_time_to_buy_and_sell_stock_iv.go" />
         <option value="$PROJECT_DIR$/123/123_best_time_to_buy_and_sell_stock_iii.go" />
         <option value="$PROJECT_DIR$/583/583_delete_operation_for_two_strings.go" />
+        <option value="$PROJECT_DIR$/072/072_edit_distance.go" />
       </list>
     </option>
   </component>
@@ -288,14 +276,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/232/232_implement_queue_using_stacks.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/155/155_min_stack.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -730,11 +710,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/583/583_delete_operation_for_two_strings.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="333">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="e#14#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/072/072_edit_distance.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
