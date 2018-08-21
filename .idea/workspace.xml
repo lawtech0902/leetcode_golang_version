@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/072/072_edit_distance.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/650/650_2_keys_keyboard.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,24 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="583_delete_operation_for_two_strings.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/583/583_delete_operation_for_two_strings.go">
+      <file leaf-file-name="650_2_keys_keyboard.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/650/650_2_keys_keyboard.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="180">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#14#27#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="072_edit_distance.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/072/072_edit_distance.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -52,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/572/572_subtree_of_another_treesubtree_of_another_tree.go" />
         <option value="$PROJECT_DIR$/572/572_subtree_of_another_tree.go" />
         <option value="$PROJECT_DIR$/101/101_symmetric_tree.go" />
         <option value="$PROJECT_DIR$/100/100_same_tree.go" />
@@ -103,6 +92,7 @@
         <option value="$PROJECT_DIR$/123/123_best_time_to_buy_and_sell_stock_iii.go" />
         <option value="$PROJECT_DIR$/583/583_delete_operation_for_two_strings.go" />
         <option value="$PROJECT_DIR$/072/072_edit_distance.go" />
+        <option value="$PROJECT_DIR$/650/650_2_keys_keyboard.go" />
       </list>
     </option>
   </component>
@@ -276,14 +266,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/155/155_min_stack.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/栈的压入、弹出序列.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -695,7 +677,7 @@
         <state relative-caret-position="440">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <element signature="e#14#27#0" expanded="true" />
+            <element signature="e#14#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -713,7 +695,7 @@
         <state relative-caret-position="333">
           <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
-            <element signature="e#14#27#0" expanded="true" />
+            <element signature="e#14#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -723,6 +705,16 @@
         <state relative-caret-position="140">
           <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/650/650_2_keys_keyboard.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
