@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e54ee8-f9b5-4e9e-8ca3-1e7ee8a27625" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/322/322_coin_change.go" afterPath="$PROJECT_DIR$/322/322_coin_change.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/377/377_combination_sum_iv.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="322_coin_change.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="322_coin_change.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/322/322_coin_change.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="493">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="377_combination_sum_iv.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/377/377_combination_sum_iv.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -39,8 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/106/106_construct_binary_tree_from_inorder_and_postorder_traversal.go" />
-        <option value="$PROJECT_DIR$/102/102_binary_tree_level_order_traversal.go" />
         <option value="$PROJECT_DIR$/107/107_binary_tree_level_order_traversal_ii.go" />
         <option value="$PROJECT_DIR$/232/232_implement_queue_using_stacks.go" />
         <option value="$PROJECT_DIR$/141/141_linked_list_cycle.go" />
@@ -90,6 +99,8 @@
         <option value="$PROJECT_DIR$/322/main.go" />
         <option value="$PROJECT_DIR$/474/474_ones_and_zeroes.go" />
         <option value="$PROJECT_DIR$/322/322_coin_change.go" />
+        <option value="$PROJECT_DIR$/377.go" />
+        <option value="$PROJECT_DIR$/377/377_combination_sum_iv.go" />
       </list>
     </option>
   </component>
@@ -263,26 +274,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/141/141_linked_list_cycle.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/142/142_linked_list_cycle_ii.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/572/572_subtree_of_another_tree.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -698,7 +689,7 @@
         <state relative-caret-position="240">
           <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
-            <element signature="e#14#27#0" expanded="true" />
+            <element signature="e#14#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -711,10 +702,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/377.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/322/322_coin_change.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/377/377_combination_sum_iv.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
