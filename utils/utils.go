@@ -1,4 +1,4 @@
-package leetcode_golang_version
+package utils
 
 /*
 __author__ = 'lawtech'
