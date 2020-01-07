@@ -1,7 +1,13 @@
+/*
+ * @Description:
+ * @Author: lawtech
+ * @Date: 2020-01-03 16:19:42
+ */
 package _08
 
 import (
 	"math"
+	"strings"
 )
 
 /*
@@ -10,12 +16,13 @@ __date__ = '2018/8/18 上午12:05'
 */
 
 func myAtoi(str string) int {
-	res, sign, size, idx := 0, 1, len(str), 0
-
 	// 跳过首部空格
-	for idx < size && (str[idx] == ' ' || str[idx] == '\t') {
-		idx++
-	}
+	// for idx < size && (str[idx] == ' ' || str[idx] == '\t') {
+	// 	idx++
+	// }
+	str = strings.TrimLeft(str, " \t")
+
+	res, sign, size, idx := 0, 1, len(str), 0
 
 	// +/-
 	if idx < size {
