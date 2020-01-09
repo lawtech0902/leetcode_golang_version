@@ -1,13 +1,14 @@
-package main
+/*
+ * @Description:
+ * @Author: lawtech
+ * @Date: 2020-01-03 16:19:42
+ */
+
+package _08
 
 import (
 	"strconv"
 )
-
-/*
-__author__ = 'lawtech'
-__date__ = '2018/8/18 上午12:40'
-*/
 
 func isPalindrome(x int) interface{} {
 	if x < 0 {
