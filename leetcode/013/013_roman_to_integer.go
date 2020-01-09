@@ -1,9 +1,9 @@
-package _13
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 上午12:47'
 */
+
+package _13
 
 func romanToInt(s string) int {
 	res := 0
@@ -23,8 +23,8 @@ func romanToInt(s string) int {
 
 		sign := 1
 		if tmp < last {
-			//小数在大数的左边，要减去小数
-			sign = - 1
+			// 小数在大数的左边，要减去小数
+			sign = -1
 		}
 
 		res += sign * tmp
