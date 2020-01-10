@@ -1,21 +1,23 @@
-package _26
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午8:36'
 */
 
-func removeDuplicates(a []int) int {
-	left, right, size := 0, 1, len(a)
+package _26
 
-	for ; right < size; right++ {
-		if a[left] == a[right] {
-			continue
-		}
-
-		left ++
-		a[left], a[right] = a[right], a[left]
+func removeDuplicates(nums []int) int {
+	size := len(nums)
+	if size == 0 {
+		return 0
 	}
 
-	return left + 1
+	cur := 0
+	for i := 1; i < size; i++ {
+		if nums[i] != nums[cur] {
+			cur += 1
+			nums[cur] = nums[i]
+		}
+	}
+
+	return cur + 1
 }
