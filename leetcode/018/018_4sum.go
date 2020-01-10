@@ -1,11 +1,11 @@
-package _18
-
-import "sort"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 上午1:11'
 */
+
+package _18
+
+import "sort"
 
 func fourSum(nums []int, target int) [][]int {
 	sort.Ints(nums)
@@ -31,9 +31,9 @@ func fourSum(nums []int, target int) [][]int {
 				s := nums[i] + nums[j] + nums[l] + nums[r]
 				switch {
 				case s > target:
-					r --
+					r--
 				case s < target:
-					l ++
+					l++
 				default:
 					res = append(res, []int{nums[i], nums[j], nums[l], nums[r]})
 					l, r = next(nums, l, r)
