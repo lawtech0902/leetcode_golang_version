@@ -1,11 +1,11 @@
-package _23
-
-import "container/heap"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午2:51'
 */
+
+package _23
+
+import "container/heap"
 
 type ListNode struct {
 	Val  int
