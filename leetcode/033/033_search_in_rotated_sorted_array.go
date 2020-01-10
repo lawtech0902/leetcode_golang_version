@@ -9,7 +9,7 @@ func search(nums []int, target int) int {
 	size := len(nums)
 	left, right := 0, size-1
 
-	for left < right {
+	for left <= right {
 		mid := (left + right) / 2
 		if target == nums[mid] {
 			return mid
