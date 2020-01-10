@@ -41,14 +41,14 @@ func reverse(a []int, l int) {
 
 	for l < r {
 		a[l], a[r] = a[r], a[l]
-		l ++
-		r --
+		l++
+		r--
 	}
 }
 
 func search(a []int, l, target int) int {
 	r := len(a) - 1
-	l --
+	l--
 
 	for l+1 < r {
 		mid := (l + r) / 2
