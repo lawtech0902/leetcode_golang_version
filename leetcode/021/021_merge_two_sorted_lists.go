@@ -10,7 +10,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists(l1, l2 *ListNode) *ListNode {
 	if l1 == nil {
 		return l2
 	}
@@ -19,37 +19,26 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 		return l1
 	}
 
-	var head, pHead *ListNode
-
-	if l1.Val < l2.Val {
-		head = l1
-		pHead = l1
-		l1 = l1.Next
-	} else {
-		head = l2
-		pHead = l2
-		l2 = l2.Next
-	}
+	dummy := ListNode{Val: 0}
+	p := &dummy
 
 	for l1 != nil && l2 != nil {
 		if l1.Val < l2.Val {
-			pHead.Next = l1
+			p.Next = l1
 			l1 = l1.Next
 		} else {
-			pHead.Next = l2
+			p.Next = l2
 			l2 = l2.Next
 		}
-
-		pHead = pHead.Next
+		p = p.Next
 	}
 
 	if l1 != nil {
-		pHead.Next = l1
+		p.Next = l1
 	}
-
 	if l2 != nil {
-		pHead.Next = l2
+		p.Next = l2
 	}
 
-	return head
+	return dummy.Next
 }
