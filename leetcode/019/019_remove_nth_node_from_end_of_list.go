@@ -1,9 +1,9 @@
-package _19
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 上午1:18'
 */
+
+package _19
 
 type ListNode struct {
 	Val  int
