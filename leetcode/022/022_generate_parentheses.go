@@ -1,9 +1,9 @@
-package _22
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午2:40'
 */
+
+package _22
 
 func generateParenthesis(n int) []string {
 	return dfs("", n, n)
