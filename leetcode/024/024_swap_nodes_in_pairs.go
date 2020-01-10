@@ -1,13 +1,14 @@
-package _24
-
-import "go_projects/leetcode_golang_version"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午8:22'
 */
 
-type ListNode = leetcode_golang_version.ListNode
+package _24
+
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
 
 func swapPairs(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
