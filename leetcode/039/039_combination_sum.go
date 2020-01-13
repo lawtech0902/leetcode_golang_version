@@ -29,6 +29,8 @@ func dfs(candidates []int, target int, valSlice []int, res *[][]int) {
 		return
 	}
 
+	// 这样处理一下的用意是，让切片的容量等于长度，以后append的时候，会分配新的底层数组
+	// 避免多处同时对底层数组进行修改，产生错误的答案。
 	valSlice = valSlice[:len(valSlice):len(valSlice)]
 
 	dfs(candidates, target-candidates[0], append(valSlice, candidates[0]), res)
