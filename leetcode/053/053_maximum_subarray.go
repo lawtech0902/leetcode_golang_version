@@ -1,25 +1,24 @@
 package _53
 
-import "math"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/19 下午11:11'
 */
 
+import "math"
+
 func maxSubArray(nums []int) int {
-	max_sum := nums[0]
-	pre_sum := 0
+	maxSum, preSum := nums[0], 0
 
 	for _, num := range nums {
-		if pre_sum < 0 {
-			pre_sum = num
+		if preSum <= 0 {
+			preSum = num
 		} else {
-			pre_sum += num
+			preSum += num
 		}
 
-		max_sum = int(math.Max(float64(max_sum), float64(pre_sum)))
+		maxSum = int(math.Max(float64(maxSum), float64(preSum)))
 	}
 
-	return max_sum
+	return maxSum
 }
