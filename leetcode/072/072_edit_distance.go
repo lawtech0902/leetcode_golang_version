@@ -1,9 +1,9 @@
-package _72
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/21 下午11:23'
 */
+
+package _72
 
 // dp[i][j]表示word1[0...i]到word2[0...j]的编辑距离
 func minDistance(word1 string, word2 string) int {
