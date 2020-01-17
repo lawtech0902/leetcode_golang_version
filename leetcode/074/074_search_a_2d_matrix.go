@@ -1,30 +1,23 @@
-package _74
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/24 下午5:21'
 */
 
+package _74
+
 func searchMatrix(matrix [][]int, target int) bool {
-	m := len(matrix)
-	if m == 0 {
+	if matrix == nil || len(matrix) == 0 || len(matrix[0]) == 0 {
 		return false
 	}
 
-	n := len(matrix[0])
-	if n == 0 {
-		return false
-	}
+	j := len(matrix[0]) - 1
+	for i := 0; i < len(matrix); i++ {
+		for j != 0 && matrix[i][j] > target {
+			j -= 1
+		}
 
-	i, j := 0, n-1
-
-	for i < m && j >= 0 {
 		if matrix[i][j] == target {
 			return true
-		} else if matrix[i][j] > target {
-			j -= 1
-		} else {
-			i += 1
 		}
 	}
 
