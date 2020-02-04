@@ -1,13 +1,15 @@
-package _101
-
-import "go_projects/leetcode_golang_version"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/19 下午3:27'
 */
 
-type TreeNode = leetcode_golang_version.TreeNode
+package _101
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func isSymmetric(root *TreeNode) bool {
 	if root == nil {
