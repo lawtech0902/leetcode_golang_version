@@ -1,13 +1,15 @@
-package _102
-
-import "go_projects/leetcode_golang_version"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/19 上午1:01'
 */
 
-type TreeNode = leetcode_golang_version.TreeNode
+package _102
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func levelOrder(root *TreeNode) [][]int {
 	var (
