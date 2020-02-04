@@ -1,13 +1,15 @@
-package _94
-
-import "go_projects/leetcode_golang_version"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午11:02'
 */
 
-type TreeNode = leetcode_golang_version.TreeNode
+package _94
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func inorderTraversal(root *TreeNode) []int {
 	var (
