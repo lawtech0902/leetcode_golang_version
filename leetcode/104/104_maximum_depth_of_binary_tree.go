@@ -1,16 +1,19 @@
-package _104
-
-import (
-	"go_projects/leetcode_golang_version"
-	"math"
-)
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/20 上午10:52'
 */
 
-type TreeNode = leetcode_golang_version.TreeNode
+package _104
+
+import (
+	"math"
+)
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func maxDepth(root *TreeNode) int {
 	if root == nil {
