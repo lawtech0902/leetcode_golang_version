@@ -13,6 +13,7 @@ type TreeNode struct {
 
 func sortedArrayToBST(nums []int) *TreeNode {
 	size := len(nums)
+
 	if size == 0 {
 		return nil
 	}
