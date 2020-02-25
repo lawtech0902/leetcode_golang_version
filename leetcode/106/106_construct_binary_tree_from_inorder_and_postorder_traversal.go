@@ -1,20 +1,26 @@
-package _106
-
-import "go_projects/leetcode_golang_version"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午11:36'
 */
 
-type TreeNode = leetcode_golang_version.TreeNode
+package _106
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func buildTree(inorder []int, postorder []int) *TreeNode {
 	if len(inorder) == 0 {
 		return nil
 	}
 
-	root := &TreeNode{Val: postorder[len(postorder)-1]}
+	root := &TreeNode{
+		Val:   postorder[len(postorder)-1],
+		Left:  nil,
+		Right: nil,
+	}
 
 	if len(inorder) == 1 {
 		return root
@@ -34,5 +40,6 @@ func getIndex(val int, nums []int) int {
 			return i
 		}
 	}
+
 	return 0
 }
