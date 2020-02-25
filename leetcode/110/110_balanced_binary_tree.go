@@ -1,16 +1,17 @@
-package _110
-
-import (
-	"go_projects/leetcode_golang_version"
-	"math"
-)
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/20 上午11:03'
 */
 
-type TreeNode = leetcode_golang_version.TreeNode
+package _110
+
+import "math"
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func isBalanced(root *TreeNode) bool {
 	if root == nil {
