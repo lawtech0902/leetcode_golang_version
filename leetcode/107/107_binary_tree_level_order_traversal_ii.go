@@ -1,13 +1,15 @@
-package _107
-
-import "go_projects/leetcode_golang_version"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/19 上午1:29'
 */
 
-type TreeNode = leetcode_golang_version.TreeNode
+package _107
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func levelOrderBottom(root *TreeNode) [][]int {
 	var (
@@ -20,10 +22,11 @@ func levelOrderBottom(root *TreeNode) [][]int {
 			return
 		}
 
-		// 出现了新的 level
+		// 出现了新的level
 		if level >= len(res) {
 			res = append([][]int{[]int{}}, res...)
 		}
+
 		n := len(res)
 		res[n-level-1] = append(res[n-level-1], root.Val)
 
