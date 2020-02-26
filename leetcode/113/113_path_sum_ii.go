@@ -1,13 +1,15 @@
-package _113
-
-import "go_projects/leetcode_golang_version"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/19 下午4:50'
 */
 
-type TreeNode = leetcode_golang_version.TreeNode
+package _113
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func pathSum(root *TreeNode, sum int) [][]int {
 	var (
@@ -26,6 +28,7 @@ func pathSum(root *TreeNode, sum int) [][]int {
 		} else {
 			path[level] = root.Val
 		}
+
 		sum -= root.Val
 
 		if root.Left == nil && root.Right == nil && sum == 0 {
@@ -39,6 +42,5 @@ func pathSum(root *TreeNode, sum int) [][]int {
 	}
 
 	dfs(root, 0, sum)
-
 	return res
 }
