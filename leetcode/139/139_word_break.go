@@ -1,9 +1,9 @@
-package _139
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/21 上午12:47'
 */
+
+package _139
 
 /*
 dp[i]表示字符串s[:i]能否拆分成符合要求的子字符串。
@@ -19,7 +19,7 @@ func wordBreak(s string, wordDict []string) bool {
 
 	for i := 0; i < n; i++ {
 		for j := i; j >= 0; j-- {
-			if dp[j] == true && inWordDict(wordDict, s[j:i+1]) == true {
+			if dp[j] == true && inWordDict(wordDict, s[j:i+1]) {
 				dp[i+1] = true
 			}
 		}
@@ -30,7 +30,7 @@ func wordBreak(s string, wordDict []string) bool {
 
 func inWordDict(wordDict []string, s string) bool {
 	for _, word := range wordDict {
-		if s == word {
+		if word == s {
 			return true
 		}
 	}
