@@ -1,63 +1,57 @@
-package _138
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/27 下午7:04'
 */
 
-type RandomListNode struct {
-	Label  int
-	Next   *RandomListNode
-	Random *RandomListNode
+package _138
+
+type Node struct {
+	Val    int
+	Next   *Node
+	Random *Node
 }
 
-func Clone(pHead *RandomListNode) *RandomListNode {
-	if pHead == nil {
-		return pHead
+func copyRandomList(head *Node) *Node {
+	if head == nil {
+		return head
 	}
 
-	CloneNodes(pHead)
-	ConnectRandomNodes(pHead)
-	return ReconnectNodes(pHead)
-}
+	ptr := head
+	for ptr != nil {
+		newNode := &Node{Val: ptr.Val}
 
-func CloneNodes(pHead *RandomListNode) {
-	pNode := pHead
-	for pNode != nil {
-		pCloned := &RandomListNode{
-			Label:  pNode.Label,
-			Next:   pNode.Next,
-			Random: pNode.Random,
+		newNode.Next = ptr.Next
+		ptr.Next = newNode
+		ptr = newNode.Next
+	}
+
+	ptr = head
+
+	for ptr != nil {
+		if ptr.Random != nil {
+			ptr.Next.Random = ptr.Random.Next
+		} else {
+			ptr.Next.Random = nil
 		}
-		pNode.Next = pCloned
-		pCloned = pCloned.Next
-	}
-}
 
-func ConnectRandomNodes(pHead *RandomListNode) {
-	pNode := pHead
-	for pNode != nil {
-		pCloned := pNode.Next
-		if pNode.Random != nil {
-			pCloned.Random = pNode.Random.Next
+		ptr = ptr.Next.Next
+	}
+
+	ptrOldList := head
+	ptrNewList := head.Next
+	headOld := head.Next
+
+	for ptrOldList != nil {
+		ptrOldList.Next = ptrOldList.Next.Next
+		if ptrNewList.Next != nil {
+			ptrNewList.Next = ptrNewList.Next.Next
+		} else {
+			ptrNewList.Next = nil
 		}
-		pNode = pCloned.Next
-	}
-}
 
-func ReconnectNodes(pHead *RandomListNode) *RandomListNode {
-	pNode := pHead
-	pClonedHead := pNode.Next
-	pClonedNode := pNode.Next
-	pNode.Next = pClonedHead.Next
-	pNode = pNode.Next
-
-	for pNode != nil {
-		pClonedNode.Next = pNode.Next
-		pClonedNode = pClonedNode.Next
-		pNode.Next = pClonedNode.Next
-		pNode = pNode.Next
+		ptrOldList = ptrOldList.Next
+		ptrNewList = ptrNewList.Next
 	}
 
-	return pClonedHead
+	return headOld
 }
