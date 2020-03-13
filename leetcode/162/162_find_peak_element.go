@@ -3,7 +3,7 @@ __author__ = 'lawtech'
 __date__ = '2020/03/12 6:28 下午'
 */
 
-package _161
+package _162
 
 func findPeakElement(nums []int) int {
 	l, r := 0, len(nums)-1
