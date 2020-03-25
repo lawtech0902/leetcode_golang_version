@@ -1,26 +1,38 @@
-package _206
-
-import (
-	"go_projects/leetcode_golang_version"
-)
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午9:35'
 */
 
-type ListNode = leetcode_golang_version.ListNode
+package _206
 
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+
+// 迭代
 func reverseList(head *ListNode) *ListNode {
 	var pre *ListNode
 	cur := head
 
 	for cur != nil {
-		next := cur.Next
+		temp := cur.Next
 		cur.Next = pre
 		pre = cur
-		cur = next
+		cur = temp
 	}
 
 	return pre
+}
+
+// 递归
+func reverseList1(head *ListNode) *ListNode {
+	if head == nil || head.Next == nil {
+		return head
+	}
+
+	p := reverseList1(head.Next)
+	head.Next.Next = head
+	head.Next = nil
+	return p
 }
