@@ -1,9 +1,9 @@
-package _229
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/19 下午10:31'
 */
+
+package _229
 
 func majorityElement(nums []int) []int {
 	if len(nums) <= 1 {
