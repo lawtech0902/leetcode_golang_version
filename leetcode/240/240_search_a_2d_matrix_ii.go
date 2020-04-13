@@ -1,9 +1,9 @@
-package _240
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午9:21'
 */
+
+package _240
 
 func searchMatrix(matrix [][]int, target int) bool {
 	m := len(matrix)
@@ -20,12 +20,10 @@ func searchMatrix(matrix [][]int, target int) bool {
 	for i >= 0 && j < n {
 		if matrix[i][j] == target {
 			return true
-		}
-
-		if matrix[i][j] < target {
-			j ++
+		} else if matrix[i][j] < target {
+			j++
 		} else {
-			i --
+			i--
 		}
 	}
 
