@@ -15,7 +15,6 @@ if dp[x+c] < 0 || dp[x+c] > dp[x]+1 {
 */
 
 func coinChange(coins []int, amount int) int {
-	// 傻逼一样的数组声明
 	dp := make([]int, amount+1)
 	dp[0] = 0
 	for i := 1; i < len(dp); i++ {
@@ -26,6 +25,7 @@ func coinChange(coins []int, amount int) int {
 		if dp[x] < 0 {
 			continue
 		}
+
 		for _, c := range coins {
 			if x+c > amount {
 				continue
