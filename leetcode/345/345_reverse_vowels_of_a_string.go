@@ -1,9 +1,9 @@
-package _345
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/24 下午6:07'
 */
+
+package _345
 
 func reverseVowels(s string) string {
 	bytes := []byte(s)
