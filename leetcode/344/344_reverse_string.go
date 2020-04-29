@@ -1,20 +1,19 @@
-package _344
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/18 下午10:00'
 */
 
-func reverseString(s string) string {
-	bytes := []byte(s)
+package _344
 
+// 双指针
+func reverseString(s []byte) string {
 	i, j := 0, len(s)-1
 
 	for i < j {
-		bytes[i], bytes[j] = bytes[j], bytes[i]
-		i ++
-		j --
+		s[i], s[j] = s[j], s[i]
+		i++
+		j--
 	}
 
-	return string(bytes)
+	return string(s)
 }
