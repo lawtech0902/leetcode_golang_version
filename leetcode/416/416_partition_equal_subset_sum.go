@@ -1,16 +1,15 @@
-package _416
-
-import "sort"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/21 上午12:09'
 */
 
+package _416
+
+import "sort"
+
 // 典型的背包问题，在n个物品中选出一定的物品填满sum/2的背包
 func canPartition(nums []int) bool {
 	sort.Ints(nums)
-
 	sums := 0
 	for _, num := range nums {
 		sums += num
@@ -21,7 +20,6 @@ func canPartition(nums []int) bool {
 	}
 
 	target := sums / 2
-
 	dp := make([]bool, target+1)
 	dp[0] = true
 
