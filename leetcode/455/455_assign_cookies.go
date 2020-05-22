@@ -1,11 +1,11 @@
-package _455
-
-import "sort"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/20 上午11:59'
 */
+
+package _455
+
+import "sort"
 
 func findContentChildren(g []int, s []int) int {
 	sort.Ints(g)
@@ -16,7 +16,7 @@ func findContentChildren(g []int, s []int) int {
 		if g[gi] <= s[si] {
 			gi++
 		}
-		si ++
+		si++
 	}
 
 	return gi
