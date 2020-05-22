@@ -1,49 +1,31 @@
-package _452
-
-import "sort"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/20 下午1:53'
 */
 
-type balloons [][]int
+package _452
 
-func (b balloons) Len() int {
-	return len(b)
-}
-
-// balloons 实现了 sort.Interface 接口
-// 以end的大小来排序
-func (b balloons) Less(i, j int) bool {
-	return b[i][1] < b[j][1]
-}
-
-func (b balloons) Swap(i, j int) {
-	b[i], b[j] = b[j], b[i]
-}
+import "sort"
 
 func findMinArrowShots(points [][]int) int {
-	size := len(points)
-
-	if size == 0 {
+	if len(points) == 0 {
 		return 0
 	}
 
-	sort.Sort(balloons(points))
+	sort.Slice(points, func(i, j int) bool {
+		return points[i][1] < points[j][1]
+	})
 
-	res := 0
-	end := points[0][1]
-
-	for i := 1; i < size; i++ {
-		if points[i][0] <= end {
+	res := 1
+	position := points[0][1]
+	for i := 0; i < len(points); i++ {
+		if points[i][0] <= position {
 			continue
 		}
-		res++
-		end = points[i][1]
-	}
 
-	res++
+		res++
+		position = points[i][1]
+	}
 
 	return res
 }
