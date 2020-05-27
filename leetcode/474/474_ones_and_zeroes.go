@@ -1,11 +1,11 @@
-package _474
-
-import "math"
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/21 上午11:05'
 */
+
+package _474
+
+import "math"
 
 // dp[x][y]表示至多使用x个0，y个1可以组成字符串的最大数目
 func findMaxForm(strs []string, m int, n int) int {
