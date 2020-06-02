@@ -1,9 +1,9 @@
-package _494
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/21 上午12:21'
 */
+
+package _494
 
 /*
 该问题可以转换为 Subset Sum 问题，从而使用 0-1 背包的方法来求解。
@@ -12,7 +12,7 @@ __date__ = '2018/8/21 上午12:21'
 sum(P) + sum(N) + sum(P) - sum(N) = target + sum(P) + sum(N)
                        2 * sum(P) = target + sum(nums)
 因此只要找到一个子集，令它们都取正号，并且和等于 (target + sum(nums))/2，就证明存在解。
- */
+*/
 
 func findTargetSumWays(nums []int, S int) int {
 	sums := 0
@@ -36,5 +36,6 @@ func partitionSubsetSum(nums []int, target int) int {
 			dp[j] += dp[j-nums[i]]
 		}
 	}
+
 	return dp[target]
 }
