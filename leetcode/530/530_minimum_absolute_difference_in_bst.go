@@ -1,16 +1,19 @@
-package _530
-
-import (
-	"go_projects/leetcode_golang_version"
-	"math"
-)
-
 /*
 __author__ = 'lawtech'
 __date__ = '2018/8/20 上午11:17'
 */
 
-type TreeNode = leetcode_golang_version.TreeNode
+package _530
+
+import (
+	"math"
+)
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func getMinimumDifference(root *TreeNode) int {
 	nums := inorder(root, []int{})
