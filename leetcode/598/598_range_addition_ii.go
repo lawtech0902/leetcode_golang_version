@@ -9,8 +9,8 @@ package _598
 func maxCount(m, n int, ops [][]int) int {
 	min1, min2 := m, n
 	for _, op := range ops {
-		min1 := min(min1, op[0])
-		min2 := min(min2, op[1])
+		min1 = min(min1, op[0])
+		min2 = min(min2, op[1])
 	}
 
 	return min1 * min2
