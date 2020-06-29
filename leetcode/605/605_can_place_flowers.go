@@ -1,9 +1,10 @@
-package _605
-
 /*
-__author__ = 'lawtech'
-__date__ = '2018/8/20 下午11:05'
-*/
+ * @Description:
+ * @Author: lawtech
+ * @Date: 2020-01-03 16:19:42
+ */
+
+package _605
 
 func canPlaceFlowers(flowerbed []int, n int) bool {
 	size := len(flowerbed)
