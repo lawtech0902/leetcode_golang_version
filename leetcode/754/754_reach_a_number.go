@@ -17,7 +17,7 @@ func reachNumber(target int) int {
 
 	if target%2 == 0 {
 		return k
+	} else {
+		return k + 1 + k%2
 	}
-
-	return k + 1 + k%2
 }
