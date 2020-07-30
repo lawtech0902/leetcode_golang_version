@@ -7,6 +7,7 @@ package _54
 
 import "reflect"
 
+// 转圈遍历，辣鸡
 func spiralOrder(matrix [][]int) []int {
 	var res []int
 	for len(matrix) != 0 {
@@ -45,4 +46,59 @@ func reverseAny(s interface{}) {
 	for i, j := 0, n-1; i < j; i, j = i+1, j-1 {
 		swap(i, j)
 	}
+}
+
+// 模拟，设定边界
+func spiralOrder1(matrix [][]int) []int {
+	if len(matrix) == 0 {
+		return []int{}
+	}
+
+	// 左右上下四个边界
+	l, r, t, b := 0, len(matrix[0])-1, 0, len(matrix)-1
+	var res []int
+
+	for {
+		// 从左到右
+		for i := l; i <= r; i++ {
+			res = append(res, matrix[t][i])
+		}
+
+		t++
+		if t > b {
+			break
+		}
+
+		// 从上到下
+		for i := t; i <= b; i++ {
+			res = append(res, matrix[i][r])
+		}
+
+		r--
+		if l > r {
+			break
+		}
+
+		// 从右到左
+		for i := r; i >= l; i-- {
+			res = append(res, matrix[b][i])
+		}
+
+		b--
+		if t > b {
+			break
+		}
+
+		// 从下到上
+		for i := b; i >= t; i-- {
+			res = append(res, matrix[i][l])
+		}
+
+		l++
+		if l > r {
+			break
+		}
+	}
+
+	return res
 }
