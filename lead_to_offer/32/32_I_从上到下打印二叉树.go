@@ -36,3 +36,27 @@ func levelOrder(root *TreeNode) []int {
 
 	return res
 }
+
+// 用这个空间效率更高
+func levelOrder1(root *TreeNode) []int {
+	if root == nil {
+		return []int{}
+	}
+
+	queue := []*TreeNode{root}
+	var res []int
+	for len(queue) != 0 {
+		node := queue[0]
+		queue = queue[1:]
+		res = append(res, node.Val)
+		if node.Left != nil {
+			queue = append(queue, node.Left)
+		}
+
+		if node.Right != nil {
+			queue = append(queue, node.Right)
+		}
+	}
+
+	return res
+}
