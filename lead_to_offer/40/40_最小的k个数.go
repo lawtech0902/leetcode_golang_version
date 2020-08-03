@@ -44,7 +44,6 @@ func getLeastNumbers1(arr []int, k int) []int {
 }
 
 type intHeap []int
-￿
 
 func (h intHeap) Len() int {
 	return len(h)
